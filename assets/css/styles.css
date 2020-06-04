@@ -103,9 +103,8 @@ a.dotted-link:hover {
   font-weight: bold;
 }
 .header .profile-image {
+  width: 16%;
   margin-right: 30px;
-  width: 300px;
-
 }
 .header .profile-content .name {
   color: #49515a;
