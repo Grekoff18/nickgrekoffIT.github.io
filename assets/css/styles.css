@@ -97,20 +97,27 @@ a.dotted-link:hover {
   padding: 30px 0;
   background: #f5f5f5;
   border-top: 50px solid #DAE3E7;
+  overflow: hidden;
 }
 .header .btn {
   margin-top: 60px;
   font-weight: bold;
+  opacity: 0;
+  transition-delay: 3s;
 }
 .header .profile-image {
   width: 16%;
   margin-right: 30px;
+  opacity: 0;
+  transition-delay: 500ms;
 }
 .header .profile-content .name {
   color: #49515a;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
+  opacity: 0;
+  transition-delay: 500ms;
 }
 .header .profile-content .desc {
   color: #778492;
@@ -119,8 +126,13 @@ a.dotted-link:hover {
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 15px;
+  opacity: 0;
+  transition-delay: 500ms;
 }
-
+.social {
+  opacity: 0;
+  transition-delay: 1s;
+}
 .header .profile-content .social a:hover {
   color: #778492;
 }
@@ -155,6 +167,10 @@ a.dotted-link:hover {
   word-spacing: 3px;
 }
 /* About Section */
+.content-about{
+  opacity: 0;
+  transition-delay: 1s;
+}
 /* Latest Section */
 .latest .item {
   margin-bottom: 30px;
@@ -414,10 +430,13 @@ a.dotted-link:hover {
   color: #fff;
   padding: 10px 0;
 }
+.footer .container {
+  text-align: end;
+}
 .footer .copyright {
   line-height: 1.6;
   color: #a1aab4;
-  font-size: 14px;
+  font-size: 20px;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
@@ -444,4 +463,13 @@ a.dotted-link:hover {
   .container {
     width: 1360px;
   }
+}
+
+@keyframes headerTitle {
+    from {
+      opacity: 0;
+    } 
+    to {
+      opacity: 1;
+    }
 }
