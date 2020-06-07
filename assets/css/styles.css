@@ -96,7 +96,7 @@ a.dotted-link:hover {
 .header {
   padding: 30px 0;
   background: #f5f5f5;
-  border-top: 10px solid #f5f5f5;
+  border-top: 50px solid #DAE3E7;
 }
 .header .btn {
   margin-top: 60px;
@@ -151,12 +151,16 @@ a.dotted-link:hover {
   margin-right: 5px;
   font-size: 14px;
 }
+.content {
+  word-spacing: 3px;
+}
 /* About Section */
 /* Latest Section */
 .latest .item {
   margin-bottom: 30px;
 }
 .latest .item .title {
+  color: #3AAA64;
   font-size: 18px;
   margin-top: 0;
 }
@@ -243,13 +247,35 @@ a.dotted-link:hover {
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
+/* Work Section */
+.experience .item {
+  margin-bottom: 30px;
+}
+.experience .item .title {
+  color: #3AAA64;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+.experience .item .title .place {
+  color: #999;
+  font-weight: normal;
+}
+.experience .item .title .place a {
+  color: #999;
+}
+.experience .item .title .place a:hover {
+  color: #666666;
+}
+.experience .item .title .year {
+  color: #999;
+  font-weight: normal;
+}
 /* Info Section */
-.info .fa {
+.info .fas, .far {
   margin-right: 15px;
   color: #ccd1d6;
-}
-.info .fa.fa-envelope-o {
-  font-size: 14px;
 }
 .info ul {
   margin-bottom: 0;
@@ -259,6 +285,36 @@ a.dotted-link:hover {
 }
 .info li:last-child {
   margin-bottom: 0;
+}
+/* Skills Section */
+.skills .intro {
+  margin-bottom: 30px;
+}
+.skills .skillset .item {
+  margin-bottom: 30px;
+}
+.skills .skillset .level-title {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+.skills .skillset .level-title .level-label {
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.skills .skillset .level-bar {
+  height: 15px;
+  background: #e8e8e8;
+}
+.skills .skillset .level-bar-inner {
+  height: 15px;
+  background: #66cb8c;
 }
 /* Education section */
 .education .item {
@@ -276,9 +332,9 @@ a.dotted-link:hover {
   font-size: 13px;
   color: #999;
   font-weight: 600;
-  padding-left: 25px;
 }
 .education .item .university .year {
+  margin-left: 10px;
   color: #b0b7bf;
   font-weight: 500;
 }
@@ -289,6 +345,9 @@ a.dotted-link:hover {
 .languages .item .title {
   color: #778492;
 }
+.languages .item .title strong {
+  margin-right: 10px;
+}
 .languages .item .level {
   color: #999;
 }
@@ -297,6 +356,57 @@ a.dotted-link:hover {
 }
 .languages .item .fa {
   color: #79d19a;
+}
+/* List section */
+.list-unstyled>li {
+  display: flex;
+}
+.list-unstyled>li>p {
+  margin-left: 15px;
+}
+.list ul li {
+  margin-bottom: 10px;
+}
+.list ul li .fas {
+  font-size: 19px;
+  color: black;
+}
+.list ul li {
+  color: #778492;
+}
+.list ul li:hover {
+  color: #49515a;
+}
+/* Credits */
+.credits ul li {
+  margin-bottom: 10px;
+}
+.credits ul li .fa {
+  margin-right: 5px;
+}
+.credits ul li a {
+  color: #778492;
+}
+.credits ul li a:hover {
+  color: #49515a;
+}
+.credits .btn {
+  margin-bottom: 15px;
+}
+/* Prices */
+.fa-dollar-sign {
+  margin-right: 10px;
+}
+/* Testimonials section */
+.quote {
+  color: #666;
+  font-size: 16px;
+  border-left-color: #9fdeb7;
+  margin-bottom: 15px;
+}
+.fa-quote-left {
+  color: #79d19a;
+  margin-right: 15px;
 }
 /* ======= Footer ======= */
 .footer {
