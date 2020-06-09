@@ -18,32 +18,5 @@ window.onload = function() {
     setTimeout(function() {
         arr[2].style.width = '310px'
         arr[2].style.transition = '2s'
-    }, 2400)
-
-    let hdrTitle = document.querySelector('.name')
-    let hdrDesc = document.querySelector('.desc')
-    let hdrSocial = document.querySelector('.social')
-    let hdrImg = document.querySelector('.profile-image')
-    let hdrBtn = document.querySelector('.btn')
-    let text = document.querySelector('.content-about')
-
-    function opac() {
-        hdrTitle.style.opacity = '1'
-        hdrTitle.style.transitionDuration = '2s'
-        hdrDesc.style.opacity = '1'
-        hdrDesc.style.transitionDuration = '2s'
-        hdrSocial.style.opacity = '1'
-        hdrSocial.style.transitionDuration = '2s'
-        hdrImg.style.opacity = '1'
-        hdrImg.style.transitionDuration = '2s'
-        hdrBtn.style.opacity = '1'
-        hdrBtn.style.transitionDuration = '2s'
-        text.style.opacity = '1'
-        text.style.transitionDuration = '2s'
-        text.style.opacity = '1'
-        text.style.transitionDuration = '1s'
-    }
-    opac();
-    
-    
+    }, 2400)    
 }
